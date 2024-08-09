@@ -3,7 +3,9 @@
 
 Angular 17 Framework<br>
 Libraries - Angular Material, ngxPagination, chart.js<br>
-CSS framework - Tailwind
+CSS framework - Tailwind<BR>
+TypeScript
+HTML
 
 
 ## Development server
