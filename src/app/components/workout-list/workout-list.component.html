@@ -1,0 +1,19 @@
+<table cdk-table [dataSource]="dataSource">
+  <ng-container cdkColumnDef="name">
+    <th cdk-header-cell *cdkHeaderCellDef>Name</th>
+    <td cdk-cell *cdkCellDef="let element">{{ element.name }}</td>
+  </ng-container>
+
+  <ng-container cdkColumnDef="type">
+    <th cdk-header-cell *cdkHeaderCellDef>Type</th>
+    <td cdk-cell *cdkCellDef="let element">{{ element.type }}</td>
+  </ng-container>
+
+  <ng-container cdkColumnDef="minutes">
+    <th cdk-header-cell *cdkHeaderCellDef>Minutes</th>
+    <td cdk-cell *cdkCellDef="let element">{{ element.minutes }}</td>
+  </ng-container>
+
+  <tr cdk-header-row *cdkHeaderRowDef="['name', 'type', 'minutes']"></tr>
+  <tr cdk-row *cdkRowDef="let row; columns: ['name', 'type', 'minutes'];"></tr>
+</table>

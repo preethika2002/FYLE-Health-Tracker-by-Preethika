@@ -1,0 +1,16 @@
+<mat-card>
+  <form (ngSubmit)="onSubmit(workoutForm)" #workoutForm="ngForm">
+    <mat-form-field>
+      <input matInput placeholder="User Name" name="name" ngModel required>
+    </mat-form-field>
+    <mat-form-field>
+      <mat-select placeholder="Workout Type" name="type" ngModel required>
+        <mat-option *ngFor="let type of workoutTypes" [value]="type">{{ type }}</mat-option>
+      </mat-select>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput type="number" placeholder="Minutes" name="minutes" ngModel required>
+    </mat-form-field>
+    <button mat-raised-button color="primary" type="submit">Add Workout</button>
+  </form>
+</mat-card>
