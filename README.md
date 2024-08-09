@@ -1,7 +1,8 @@
+#### HEALTH CHALLENGE TRACKER 
 ## Technologies Used
 
-Angular 17 Framework
-Libraries - Angular Material, ngxPagination, chart.js
+Angular 17 Framework<br>
+Libraries - Angular Material, ngxPagination, chart.js<br>
 CSS framework - Tailwind
 
 
