@@ -1,4 +1,4 @@
-#### HEALTH CHALLENGE TRACKER 
+## HEALTH CHALLENGE TRACKER 
 ## Technologies Used
 
 Angular 17 Framework<br>
