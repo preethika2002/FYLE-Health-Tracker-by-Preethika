@@ -2,8 +2,8 @@
 ## Technologies Used
 
 Angular 17 Framework<br>
-Libraries - Angular Material, ngxPagination, chart.js<br>
-CSS framework - Tailwind<BR>
+Libraries - Angular Material, chart.js<br>
+CSS framework <BR>
 TypeScript<br>
 HTML
 
